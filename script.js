@@ -24,7 +24,7 @@ async function loadAllStations() {
     try {
         const response = await fetch('https://mp3quran.net/api/v3/radios');
         const data = await response.json();
-        
+
         data.radios.forEach(station => {
             const stationCard = document.createElement('div');
             stationCard.className = 'station-card';
@@ -44,7 +44,7 @@ async function loadAllStations() {
         searchInput.addEventListener('input', (e) => {
             const searchTerm = e.target.value.toLowerCase();
             const stations = stationsGrid.getElementsByClassName('station-card');
-            
+
             Array.from(stations).forEach(station => {
                 const stationName = station.querySelector('h3').textContent.toLowerCase();
                 station.style.display = stationName.includes(searchTerm) ? 'block' : 'none';
@@ -63,4 +63,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add current year to copyright
     document.getElementById('year').textContent = new Date().getFullYear();
 });
-
