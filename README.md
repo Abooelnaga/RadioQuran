@@ -59,9 +59,13 @@ You can run the website by opening `index.html` in your browser.
 
 ---
 
-## 📞 تواصل معنا | Contact Us
+## 📬 تواصل معي | Contact Me
 
-💬 **تيليجرام | Telegram:** [رابط التواصل](https://t.me/YourTelegramLink)
+📢 لمزيد من المعلومات أو الاقتراحات، تواصل معي عبر تيليجرام:
 
-🌟 **إذا أعجبك المشروع، لا تنسَ إعطاء نجمة على GitHub!** 🚀
+[![Telegram](https://img.shields.io/badge/Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/moonaga)
+
+---
+
+🎉 **شكراً لزيارتك! لا تنسَ دعم المشروع والمشاركة!**
 
