@@ -48,7 +48,7 @@ The website contains Quran radio stations, including:
 ### 📥 تحميل المشروع | Download the Project
 
 ```bash
-git clone https://github.com/YourUsername/Quran-Radios.git
+git clone https://github.com/Abooelnaga/RadioQuran.git 
 cd Quran-Radios
 ```
 
