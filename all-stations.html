@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جميع إذاعات القرآن الكريم</title>
+    <link rel="icon" type="image/x-icon" href="radio.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Reem+Kufi:wght@600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span>إذاعات القرآن</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">الرئيسية</a>
+                <a href="important-stations.html">أهم الإذاعات</a>
+                <a href="all-stations.html" class="active">جميع الاذاعات</a>
+                <a href="https://github.com/Abooelnaga/RadioQuran" target="_blank">سورس الموقع</a>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main class="all-stations-section">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="ابحث عن الإذاعة...">
+        </div>
+        <div class="stations-content">
+            <h1>جميع إذاعات القرآن الكريم</h1>
+            <div id="allStationsGrid" class="stations-grid">
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
